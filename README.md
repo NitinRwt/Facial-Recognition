@@ -14,7 +14,7 @@ The Face Recognition System is a sophisticated application designed to perform r
 - **Responsive UI**: Built with PyQt5, the interface is designed to be responsive and visually appealing.
 - **Real-time Face Recognition**: Utilizes the `face_recognition` library for accurate and efficient face detection and recognition.
 - **CSV Attendance Logging**: Logs attendance data to a CSV file with timestamps. <br>
-![Screenshot 2024-08-03 111428](https://github.com/user-attachments/assets/cea365d0-e3fa-4f4d-83a8-c01f67ff93b8)
+
 
 ## Installation
 
