@@ -10,11 +10,12 @@ The Face Recognition System is a sophisticated application designed to perform r
 - **Start Recognition**: Begin the face recognition process using the webcam.
 - **Stop Recognition**: Halt the face recognition process.
 - **About**: View information about the application.
-- **Attendance Logs**: View and manage attendance records.
+- **Attendance Logs**: View recognised person data every 1min
 - **Responsive UI**: Built with PyQt5, the interface is designed to be responsive and visually appealing.
 - **Real-time Face Recognition**: Utilizes the `face_recognition` library for accurate and efficient face detection and recognition.
-- **CSV Attendance Logging**: Logs attendance data to a CSV file with timestamps. <br>
-
+- **CSV Logging**: Logs attendance data to a CSV file with timestamps. <br>
+  ![Screenshot 2024-08-13 103453](https://github.com/user-attachments/assets/1d9808d5-4a24-48e0-97ad-a074c154c324) <br>
+  ![Screenshot 2024-08-13 104744](https://github.com/user-attachments/assets/dc9f575f-d26f-4df8-91d9-7204ba60b302)
 
 ## Installation
 
