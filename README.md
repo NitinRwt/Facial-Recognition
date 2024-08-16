@@ -6,16 +6,16 @@ The Face Recognition System is a sophisticated application designed to perform r
 
 ## Features
 
-- **Add Face**: Capture and add a new face to the system.
-- **Start Recognition**: Begin the face recognition process using the webcam.
-- **Stop Recognition**: Halt the face recognition process.
-- **About**: View information about the application.
-- **Attendance Logs**: View recognised person data every 1min
-- **Responsive UI**: Built with PyQt5, the interface is designed to be responsive and visually appealing.
-- **Real-time Face Recognition**: Utilizes the `face_recognition` library for accurate and efficient face detection and recognition.
-- **CSV Logging**: Logs attendance data to a CSV file with timestamps. <br>
-  ![Screenshot 2024-08-13 103453](https://github.com/user-attachments/assets/1d9808d5-4a24-48e0-97ad-a074c154c324) <br>
-  ![Screenshot 2024-08-13 104744](https://github.com/user-attachments/assets/dc9f575f-d26f-4df8-91d9-7204ba60b302)
+- This implementation includes all the features:
+
+1. Face recognition 
+2. A modern interface with check sufficient ligthing feature
+3. Home page with camera feed and capture functionality
+4. Logs page to display recognised person data
+5. Dark mode toggle
+6. Proper error handling 
+7. Added only selected user can use the system
+ <br>
 
 ## Installation
 
@@ -29,11 +29,16 @@ The Face Recognition System is a sophisticated application designed to perform r
 ### Dependencies
 
 Install the required packages using pip:
-
+```bash
+pip install deep face
+```
 ```bash
 pip install opencv-python face-recognition numpy PyQt5
 ```
-
+### download this file
+``` bash
+https://huggingface.co/RaphaelLiu/EvalCrafter-Models/resolve/main/vgg_face_weights.h5
+```
 ### Clone the Repository
 
 ```bash
